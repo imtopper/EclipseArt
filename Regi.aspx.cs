@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Eclipse
 {
-    public partial class Regi : System.Web.UI.Page
+    public partial class REGI : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

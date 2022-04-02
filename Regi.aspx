@@ -1,47 +1,51 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Regi.aspx.cs" Inherits="Eclipse.Regi" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="REGI.aspx.cs" Inherits="Eclipse.REGI" %>
 
-    <form id="form1" >
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2" >
-                    
+<!DOCTYPE html>
+
+html>
+
+<head>
+
+                <link rel="stylesheet" type="text/css" href="public/css/StyleSheet.css">
+
+                <title>Login Form</title>
+
+</head>
+
+<body>
+
+                <div class="main">
+
+                                <div class="left">
+
+                                                <h1>Code<br><span>Beginner</span></h1>
+
+                                </div>
+
+                                <div class="right">
+
+                                                <div class="form">
+
+                                                                <h1>Welcome Back</h1><br>
+
+                                                                <h3>Sign into your account</h3>
+
+                                                                <input type="text" name="" placeholder="Email address"><br>
+
+                                                                <input type="password" name="" placeholder="Password"><br>
+
+                                                                <button>Login</button><br>
+
+                                                                <p><a href="#">Forgot Password?</a></p>
+
+                                                                <p>Don't have an account? <a href="#">Register here</a></p>
+
+                                                </div>
+
+                                </div>
 
                 </div>
 
-               
-                <div class="col-md-8" >
-             
-                    <div class="col-md-4" style="background-color:#FFCAD4;">
-                        hii
-                    </div>
-                    <div class="col-md-4">
-                        <center><h2>Register Yourself</h2>
-                            <p>What are you waiting for. Register Yourself Now.</p></center>
-                            <br />
-                            <asp:TextBox ID="name" runat="server" CssClass="form-control" placeholder="Enter Your Name"></asp:TextBox>
+</body>
 
-                            <br />
-                            <asp:TextBox ID="email" runat="server" CssClass="form-control" placeholder="Enter Your Email ID"></asp:TextBox>
-                            <br />
-                            <asp:TextBox ID="password" runat="server" CssClass="form-control" placeholder="Create Password" type="password" ></asp:TextBox>
-                            <br />
-                            <asp:TextBox ID="cpassword" runat="server" CssClass="form-control" placeholder="Confirm Password" type="password" ></asp:TextBox>
-                            <br />
-                            <center><asp:Button ID="Button1" runat="server" Text="Register" CssClass="btn-submit"  /></center>
-                            <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
-                        <br />
-
-                    </div>
-                        
-               </div>
-                    <br />
-                </div>
-            </div>
-
-        </div>
-
-    </form>
-</asp:Content>
+</html>

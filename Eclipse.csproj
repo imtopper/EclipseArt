@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="About_Us.aspx" />
     <Content Include="All_Paintings.aspx" />
+    <Content Include="Captcha.aspx" />
     <Content Include="Category.aspx" />
     <Content Include="Customize_Portraits.aspx" />
     <Content Include="Featured_Artist.aspx" />
@@ -81,6 +82,7 @@
     <Content Include="public\css\bootstrap.min.css" />
     <Content Include="public\css\boxicon.min.css" />
     <Content Include="public\css\custom.css" />
+    <Content Include="public\css\StyleSheet.css" />
     <Content Include="public\css\templatemo.css" />
     <Content Include="public\fonts\boxicons.svg" />
     <Content Include="public\img\apple-icon.png" />
@@ -149,7 +151,7 @@
     <Content Include="public\js\jquery.min.js" />
     <Content Include="public\js\templatemo.js" />
     <Content Include="public\js\templatemo.min.js" />
-    <Content Include="Regi.aspx" />
+    <Content Include="REGI.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -167,6 +169,13 @@
     </Compile>
     <Compile Include="All_Paintings.aspx.designer.cs">
       <DependentUpon>All_Paintings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captcha.aspx.cs">
+      <DependentUpon>Captcha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captcha.aspx.designer.cs">
+      <DependentUpon>Captcha.aspx</DependentUpon>
     </Compile>
     <Compile Include="Category.aspx.cs">
       <DependentUpon>Category.aspx</DependentUpon>
@@ -232,12 +241,12 @@
       <DependentUpon>My_Orders.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Regi.aspx.cs">
-      <DependentUpon>Regi.aspx</DependentUpon>
+    <Compile Include="REGI.aspx.cs">
+      <DependentUpon>REGI.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Regi.aspx.designer.cs">
-      <DependentUpon>Regi.aspx</DependentUpon>
+    <Compile Include="REGI.aspx.designer.cs">
+      <DependentUpon>REGI.aspx</DependentUpon>
     </Compile>
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
